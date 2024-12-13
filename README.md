@@ -54,41 +54,41 @@
 
 ## Installation
 
-# 1.Clone the repository:
+## 1.Clone the repository:
 git clone https://github.com/yourusername/quiz-app.git
 cd quiz-app
 
-# 2.Create a virtual environment:
+## 2.Create a virtual environment:
 python -m venv venv
 
-# 3.Activate the virtual environment:
-# On Windows:
+## 3.Activate the virtual environment:
+## On Windows:
   .\venv\Scripts\activate
 
-# On macOS/Linux:
+## On macOS/Linux:
   source venv/bin/activate
 
-# 4.Install dependencies:
+## 4.Install dependencies:
 pip install -r requirements.txt
 
-# 5.Apply migrations to set up the database:
+## 5.Apply migrations to set up the database:
 python manage.py migrate
 
-# 6.Create a superuser to access the Django admin panel:
+## 6.Create a superuser to access the Django admin panel:
 python manage.py createsuperuser
 
-# 7.Start the development server:
+## 7.Start the development server:
 python manage.py runserver
 Access the app at http://127.0.0.1:8000/. The admin panel can be accessed at http://127.0.0.1:8000/admin/
  
 
-# Sample Data (Questions)
+## Sample Data (Questions)
 You can load sample data (questions) into the app using the following command:
 
 python manage.py loaddata questions.json
 
 The questions.json file contains pre-defined questions with options and the correct answer.
 
-# Admin Interface(you can also add questions via admin interface)
+## Admin Interface(you can also add questions via admin interface)
 To add questions to the quiz, log in to the Django admin panel:
 

@@ -1,3 +1,9 @@
+# Install Python if not available
+if ! command -v python &>/dev/null; then
+    echo "Python not found, installing..."
+    curl -sS https://bootstrap.pypa.io/get-pip.py | python
+fi
+
 #!/bin/bash
 echo "Installing pip if required..."
 python -m ensurepip --upgrade

@@ -56,7 +56,8 @@
 
 ## 1.Clone the repository:
 git clone https://github.com/Muhammedsadhath/django-quiz-app.git
-cd quiz-app
+
+cd django-quiz-app
 
 ## 2.Create a virtual environment:
 python -m venv venv
@@ -79,6 +80,7 @@ python manage.py createsuperuser
 
 ## 7.Start the development server:
 python manage.py runserver
+
 Access the app at http://127.0.0.1:8000/. The admin panel can be accessed at http://127.0.0.1:8000/admin/
  
 

@@ -133,14 +133,19 @@ USE_TZ = True
 # STATIC_URL = '/static/'
 # STATICFILES_DIRS=[BASE_DIR/'static']
 
+# STATIC_URL = '/static/'
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, 'static'),  # Add root-level static folder here
+#     os.path.join(BASE_DIR, 'staticfiles'),  # If you're using another directory
+# ]
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static_root')  # Used for collectstatic
+# MEDIA_URL = '/media/'
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),  # Add root-level static folder here
-    os.path.join(BASE_DIR, 'staticfiles'),  # If you're using another directory
-]
-STATIC_ROOT = os.path.join(BASE_DIR, 'static_root')  # Used for collectstatic
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]  # Add this if you have custom static files
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # This is where the collected static files will be stored
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field

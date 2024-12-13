@@ -1,0 +1,41 @@
+{% extends 'Quiz/base.html' %}
+
+{% block content %}
+<div class="text-center">
+    <h1 class="mb-4">Quiz Results</h1>
+    <div class="card mx-auto shadow" style="max-width: 500px;">
+        <div class="card-body">
+            <h3 class="mb-3">Your Score: {{ score }}</h3>
+            <p>Correct Answers: <strong>{{ correct }}</strong></p>
+            <p>Wrong Answers: <strong>{{ wrong }}</strong></p>
+            <p>Total Questions: <strong>{{ total }}</strong></p>
+        </div>
+    </div>
+    <a href="{% url 'start_quiz' %}" class="btn btn-primary btn-lg mt-4 px-5 py-3 shadow">Play Again</a>
+</div>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

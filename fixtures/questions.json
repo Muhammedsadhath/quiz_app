@@ -1,0 +1,362 @@
+[
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 1,
+    "fields": {
+      "question": "What is the capital of France?",
+      "op1": "Paris",
+      "op2": "Berlin",
+      "op3": "Madrid",
+      "op4": "Rome",
+      "ans": "Paris"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 2,
+    "fields": {
+      "question": "Who wrote 'Hamlet'?",
+      "op1": "Shakespeare",
+      "op2": "Dickens",
+      "op3": "Hemingway",
+      "op4": "Tolkien",
+      "ans": "Shakespeare"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 3,
+    "fields": {
+      "question": "What is the square root of 16?",
+      "op1": "2",
+      "op2": "4",
+      "op3": "8",
+      "op4": "16",
+      "ans": "4"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 4,
+    "fields": {
+      "question": "Which planet is known as the Red Planet?",
+      "op1": "Earth",
+      "op2": "Mars",
+      "op3": "Venus",
+      "op4": "Jupiter",
+      "ans": "Mars"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 5,
+    "fields": {
+      "question": "What is the largest mammal in the world?",
+      "op1": "Elephant",
+      "op2": "Blue Whale",
+      "op3": "Shark",
+      "op4": "Giraffe",
+      "ans": "Blue Whale"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 6,
+    "fields": {
+      "question": "Who painted the Mona Lisa?",
+      "op1": "Van Gogh",
+      "op2": "Picasso",
+      "op3": "Da Vinci",
+      "op4": "Rembrandt",
+      "ans": "Da Vinci"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 7,
+    "fields": {
+      "question": "Which gas do plants absorb from the atmosphere?",
+      "op1": "Oxygen",
+      "op2": "Carbon Dioxide",
+      "op3": "Nitrogen",
+      "op4": "Hydrogen",
+      "ans": "Carbon Dioxide"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 8,
+    "fields": {
+      "question": "How many continents are there?",
+      "op1": "5",
+      "op2": "6",
+      "op3": "7",
+      "op4": "8",
+      "ans": "7"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 9,
+    "fields": {
+      "question": "Which element has the chemical symbol 'O'?",
+      "op1": "Oxygen",
+      "op2": "Gold",
+      "op3": "Osmium",
+      "op4": "Ozone",
+      "ans": "Oxygen"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 10,
+    "fields": {
+      "question": "In which country would you find the Great Barrier Reef?",
+      "op1": "USA",
+      "op2": "Canada",
+      "op3": "Australia",
+      "op4": "Mexico",
+      "ans": "Australia"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 11,
+    "fields": {
+      "question": "What is the capital of Japan?",
+      "op1": "Seoul",
+      "op2": "Beijing",
+      "op3": "Tokyo",
+      "op4": "Kyoto",
+      "ans": "Tokyo"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 12,
+    "fields": {
+      "question": "Which planet is closest to the sun?",
+      "op1": "Venus",
+      "op2": "Mercury",
+      "op3": "Mars",
+      "op4": "Earth",
+      "ans": "Mercury"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 13,
+    "fields": {
+      "question": "How many bones are in the human body?",
+      "op1": "206",
+      "op2": "210",
+      "op3": "212",
+      "op4": "215",
+      "ans": "206"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 14,
+    "fields": {
+      "question": "Which language is primarily spoken in Brazil?",
+      "op1": "Spanish",
+      "op2": "French",
+      "op3": "Portuguese",
+      "op4": "English",
+      "ans": "Portuguese"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 15,
+    "fields": {
+      "question": "What is the largest desert in the world?",
+      "op1": "Sahara",
+      "op2": "Gobi",
+      "op3": "Arctic",
+      "op4": "Antarctic",
+      "ans": "Antarctic"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 16,
+    "fields": {
+      "question": "Which country is known as the Land of the Rising Sun?",
+      "op1": "China",
+      "op2": "Japan",
+      "op3": "India",
+      "op4": "South Korea",
+      "ans": "Japan"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 17,
+    "fields": {
+      "question": "Who discovered penicillin?",
+      "op1": "Marie Curie",
+      "op2": "Louis Pasteur",
+      "op3": "Alexander Fleming",
+      "op4": "Isaac Newton",
+      "ans": "Alexander Fleming"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 18,
+    "fields": {
+      "question": "Which animal is known as the King of the Jungle?",
+      "op1": "Elephant",
+      "op2": "Tiger",
+      "op3": "Lion",
+      "op4": "Bear",
+      "ans": "Lion"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 19,
+    "fields": {
+      "question": "Which element has the symbol 'Na'?",
+      "op1": "Neon",
+      "op2": "Sodium",
+      "op3": "Nickel",
+      "op4": "Nitrogen",
+      "ans": "Sodium"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 20,
+    "fields": {
+      "question": "Which is the longest river in the world?",
+      "op1": "Amazon",
+      "op2": "Nile",
+      "op3": "Yangtze",
+      "op4": "Mississippi",
+      "ans": "Nile"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 21,
+    "fields": {
+      "question": "What is the largest island in the world?",
+      "op1": "Australia",
+      "op2": "Greenland",
+      "op3": "New Guinea",
+      "op4": "Borneo",
+      "ans": "Greenland"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 22,
+    "fields": {
+      "question": "Which continent is the Sahara Desert located in?",
+      "op1": "Asia",
+      "op2": "Africa",
+      "op3": "North America",
+      "op4": "Australia",
+      "ans": "Africa"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 23,
+    "fields": {
+      "question": "What is the smallest country in the world?",
+      "op1": "Monaco",
+      "op2": "Vatican City",
+      "op3": "San Marino",
+      "op4": "Nauru",
+      "ans": "Vatican City"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 24,
+    "fields": {
+      "question": "What is the most common gas in the Earth's atmosphere?",
+      "op1": "Oxygen",
+      "op2": "Nitrogen",
+      "op3": "Carbon Dioxide",
+      "op4": "Hydrogen",
+      "ans": "Nitrogen"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 25,
+    "fields": {
+      "question": "Which animal is known as man's best friend?",
+      "op1": "Cat",
+      "op2": "Dog",
+      "op3": "Horse",
+      "op4": "Parrot",
+      "ans": "Dog"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 26,
+    "fields": {
+      "question": "Which country invented pizza?",
+      "op1": "Greece",
+      "op2": "Italy",
+      "op3": "France",
+      "op4": "USA",
+      "ans": "Italy"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 27,
+    "fields": {
+      "question": "What is the chemical symbol for gold?",
+      "op1": "Ag",
+      "op2": "Au",
+      "op3": "Pb",
+      "op4": "Fe",
+      "ans": "Au"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 28,
+    "fields": {
+      "question": "What is the tallest mountain in the world?",
+      "op1": "Mount Kilimanjaro",
+      "op2": "Mount Everest",
+      "op3": "Mount Fuji",
+      "op4": "K2",
+      "ans": "Mount Everest"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 29,
+    "fields": {
+      "question": "Which instrument is known as the king of instruments?",
+      "op1": "Piano",
+      "op2": "Violin",
+      "op3": "Organ",
+      "op4": "Guitar",
+      "ans": "Organ"
+    }
+  },
+  {
+    "model": "Quiz.QuesModel", 
+    "pk": 30,
+    "fields": {
+      "question": "What is the capital of Canada?",
+      "op1": "Ottawa",
+      "op2": "Toronto",
+      "op3": "Vancouver",
+      "op4": "Montreal",
+      "ans": "Ottawa"
+    }
+  }
+]

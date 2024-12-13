@@ -83,12 +83,11 @@ Access the app at http://127.0.0.1:8000/. The admin panel can be accessed at htt
  
 
 ## Sample Data (Questions)
-You can load sample data (questions) into the app using the following command:
-
 python manage.py loaddata questions.json
 
 The questions.json file contains pre-defined questions with options and the correct answer.
+You can load sample data (questions) into the app using the following command
 
 ## Admin Interface(you can also add questions via admin interface)
-To add questions to the quiz, log in to the Django admin panel:
+To add questions to the quiz, log in to the Django admin panel
 

@@ -55,7 +55,7 @@
 ## Installation
 
 ## 1.Clone the repository:
-git clone https://github.com/yourusername/quiz-app.git
+git clone https://github.com/Muhammedsadhath/django-quiz-app.git
 cd quiz-app
 
 ## 2.Create a virtual environment:
